@@ -1,0 +1,50 @@
+# Visual Studio, IDEs e ferramentas locais
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# .NET / build / testes
+**/bin/
+**/obj/
+TestResults/
+.coverage
+.coverage.*
+coverage/
+artifacts/
+packages/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.cache
+*.dmp
+*.mdmp
+
+# Configuração local e segredos
+.env
+.env.*
+*.secret
+*.secrets
+secrets.json
+appsettings.*.local.json
+local.settings.json
+*.pfx
+*.p12
+*.key
+*.snk
+*.pem
+*.pubxml.user
+
+# Pacotes de distribuição gerados
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.msixupload
+*.appxupload
